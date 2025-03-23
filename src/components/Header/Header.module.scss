@@ -23,6 +23,9 @@
 
 @media screen and (max-width: 380px) {
 	.header {
+		position: fixed;
+		z-index: 1000;
+		width: 100vw;
 		padding: 11px 15px;
 
 		&__container {
