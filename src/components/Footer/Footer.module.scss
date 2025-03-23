@@ -1,0 +1,18 @@
+@import '../../assets/scss/variables.scss';
+@import '../../assets/scss/mixins.scss';
+
+.footer {
+	display: flex;
+	justify-content: center;
+	padding: 14px 150px;
+	box-sizing: border-box;
+	background-color: $color-dark;
+	@include font($font-size-sm, $font-weight-normal);
+	color: white;
+}
+
+@media screen and (max-width: 380px) {
+	.footer {
+		padding: 14px 15px;
+	}
+}
